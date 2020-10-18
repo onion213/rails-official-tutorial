@@ -9,5 +9,5 @@ RUN apt-get update &&  apt-get install -y \
 	echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
 	apt-get update && apt-get install -y yarn
 WORKDIR /web
-COPY Gemfile Gemfile.lock /product-register/
+COPY Gemfile Gemfile.lock /web/
 RUN bundle install
