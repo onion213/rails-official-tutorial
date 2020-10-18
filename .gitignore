@@ -39,3 +39,7 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Ignore sample files dreated for lerning.
+docker-compose.yml.sample
+Dockerfile.sample
